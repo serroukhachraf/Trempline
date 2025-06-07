@@ -3,6 +3,34 @@
 
 C'est Un Projet Test et ceci la documentation des étapes du réalisation.
 
+## Utilisation du Projet Local
+
+```
+git clone https://github.com/serroukhachraf/Trempline.git
+```
+
+```
+docker compose up -d
+```
+
+Utilisateur et mdp mysql: root et verysecurepassword
+
+```
+npm install
+```
+
+```
+mkdir .env
+```
+
+```
+DATABASE_URL="mysql://root:verysecurepassword@localhost:3306/trempline"
+```
+
+```
+npm run dev
+```
+
 ## Installation NextJS
 
 ```
