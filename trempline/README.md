@@ -19,12 +19,20 @@ Utilisateur et mdp mysql: root et verysecurepassword
 npm install
 ```
 
-```
-mkdir .env
-```
+Crée fichier .env
 
 ```
 DATABASE_URL="mysql://root:verysecurepassword@localhost:3306/trempline"
+```
+
+avant de lancer le server on doit crée la base de données avec le nom trempline sur phpmyadmin
+
+```
+npx prisma generate
+```
+
+```
+npx prisma migrate dev
 ```
 
 ```
